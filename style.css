@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header div.logo b{
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+header div{
+    background-color: gray;
+}
+
+header div.botoes {
+    width: 500px;
+    height: 40px;
+    display: flex;    
+    justify-content: space-between;
+    background-color: gray;
+}
+
+header div.botoes button{
+    padding: 4px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+}
+
+header div.botoes input{
+    border-radius: 20px;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+
+main{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto auto auto auto;
+}
+
+main .card{
+    margin-top: 10px;
+    height: 250px;
+    width: 230px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+main div.card div.titulo, main div.card p.noticia {
+    background-color: white;
+    padding-left: 20px;
+}
+
+main div.card div.titulo strong{
+    background-color: white;
+}
+
+main div.card div.titulo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main div.card button.btn-card{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 16%;
+    margin-top: 40%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin: auto;
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    background-color: gray;
+    width: 97%;
+    height: 10px;
+}
